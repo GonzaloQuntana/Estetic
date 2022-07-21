@@ -25,7 +25,7 @@ function agregar_a_carrito(e){
 
 
     let imagen = abuelo.querySelectorAll("img").src;
-    //console.log(imagen)
+    //console.log(imagen);
 
     let producto = {
 
