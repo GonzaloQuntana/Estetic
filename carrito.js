@@ -47,32 +47,32 @@ function agregar_a_carrito(e){
 }
 
 
-    function mostrar_carrito( producto){
+    //function mostrar_carrito( producto){
 
-        let fila = document.createElement("tr");
+        //let fila = document.createElement("tr");
 
-        fila.innerHTML = '<td><img src="{$producto.img}"></td>
-                          <td>${producto.nombre}</td>
-                          <td>${producto.cantidad}</td>
-                          <td>${producto.precio}</td>'
+        //fila.innerHTML = '<td><img src="{$producto.img}"></td>
+        //                  <td>${producto.nombre}</td>
+        //                  <td>${producto.cantidad}</td>
+        //                  <td>${producto.precio}</td>'
 
-    let tabla = document.getElementById("tbody");
+    //let tabla = document.getElementById("tbody");
 
-    tabla.append(fila);
+    //tabla.append(fila);
       
-    let botones_borrar = document.querySelectorAll(".borrar_elemento");
+    //let botones_borrar = document.querySelectorAll(".borrar_elemento");
     
-    for( let boton of botones_borrar){
+    //for( let boton of botones_borrar){
 
-        boton.addEventListener("click" , borrar_producto);
+    //    boton.addEventListener("click" , borrar_producto);
     
-    }
-}
+    //}
+//}
 
-function borrar_producto(e){
+//function borrar_producto(e){
 
-    let abuelo = e.target.parentNode.parentNode;
-    abuelo.remove();
+    //let abuelo = e.target.parentNode.parentNode;
+    //abuelo.remove();
 
 
-}
+//}
