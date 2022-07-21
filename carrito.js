@@ -30,7 +30,7 @@ function agregar_a_carrito(e){
     let producto = {
 
         nombre: nombre_producto,
-        img: img,
+        img: imagen,
         precio: precio,
         cantidad: 1
 
@@ -43,7 +43,7 @@ function agregar_a_carrito(e){
     
     console.log( producto);
 
-    mostrar_carrito( producto);
+//    mostrar_carrito( producto);
 }
 
 
