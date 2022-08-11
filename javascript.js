@@ -6,6 +6,35 @@ function bienvenida(){
 
 bienvenida();
 
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+    .then(response=> response.json())
+    .then( data=>console.log(data))
+
+let ciudad = "Buenos Aires";
+
+fetch("https://api.openweathermap.org/data/2.5/weather?q=Buenos Aires&lang=es&units=metric&appid=2c0201f4d8e047d13f7aaad1788188f8")    
+    .then(response=> response.json())
+    .then( data=>(
+        
+        console.log("La temperatura es:" , data.main.temp)
+        ))
+
+fetch("productos.json")
+    .then(response=> response.json())
+    .then( data=>console.log(data))
+
+
+let resultado = async function(){
+
+    let resultado_fetch = await fetch("https://jsonplaceholder.typicode.com/posts")
+    console.log( resultado_fetch);
+
+}
+
+resultado();
+
+
 //let productos = [
 //    {nombre:"Labial" , precio:100},
 //    {nombre:"Sombra" , precio:200},

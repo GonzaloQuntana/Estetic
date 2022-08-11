@@ -1,0 +1,23 @@
+{
+    "status": 200,
+    "data": {
+      "_id": "61ab431c0f34753bcedfa7a6",
+      "title": "running sneaker",
+      "price": 200,
+      "category": {
+        "_id": "61ab1d0e4a0fef3f27dc664d",
+        "name": "bags & shoes",
+        "slug": "bags-and-shoes"
+      },
+      "description": null,
+      "createdBy": {
+        "role": "ROLE_CUSTOMER",
+        "_id": "612e4851345dcc333ac6cb24",
+        "name": "Robert Gonzalez"
+      },
+      "createdAt": "2021-12-04T10:29:48.295Z",
+      "updatedAt": "2021-12-04T10:29:48.295Z",
+      "slug": "running-sneaker"
+    },
+    "message": "Success! Product found"
+  }
