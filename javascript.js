@@ -1,3 +1,4 @@
+
 function bienvenida(){
 
     console.log("Bienvenid@ a Estetic Make Up");
@@ -35,45 +36,48 @@ let resultado = async function(){
 resultado();
 
 
-//let productos = [
-//    {nombre:"Labial" , precio:100},
-//    {nombre:"Sombra" , precio:200},
-//    {nombre:"Pestañas" , precio:50},
-//    {nombre:"Uñas" , precio:150}
-//]
 
-//function productos_venta( producto ){
+/*
+let productos = [
+    {nombre:"Labial" , precio:100},
+    {nombre:"Sombra" , precio:200},
+    {nombre:"Pestañas" , precio:50},
+    {nombre:"Uñas" , precio:150}
+]
 
-//    return {
-//        nombre: producto.nombre,
-//        precio: producto.precio
-//    }
-//}
+function productos_venta( producto ){
 
-//let resultado_map = productos.map ( productos_venta );
-//console.log(resultado_map)
+    return {
+        nombre: producto.nombre,
+        precio: producto.precio
+    }
+}
 
-//function compra1(){
+let resultado_map = productos.map ( productos_venta );
+console.log(resultado_map)
 
-//    console.log("Pepe realizo una ocmpra");
+function compra1(){
 
-//}
+    console.log("Pepe realizo una ocmpra");
 
-//compra1();
+}
 
-//let ventas = [
-//    {nombre:"Labial" , precio:100},
-//    {nombre:"Sombra" , precio:200},
-//    {nombre:"Pestañas" , precio:50},
-//    {nombre:"Uñas" , precio:150}
-//]
+compra1();
 
-//function calcular_total( acu , producto ){
+let ventas = [
+    {nombre:"Labial" , precio:100},
+    {nombre:"Sombra" , precio:200},
+    {nombre:"Pestañas" , precio:50},
+    {nombre:"Uñas" , precio:150}
+]
 
-//    acu = acu + producto.precio;
+function calcular_total( acu , producto ){
 
-//    return acu
-//}
+    acu = acu + producto.precio;
 
-//let venta_total = ventas.reduce( calcular_total , 0);
-//console.log("El total es:" , venta_total);
+   return acu
+}
+
+let venta_total = ventas.reduce( calcular_total , 0);
+console.log("El total es:" , venta_total);
+*/
